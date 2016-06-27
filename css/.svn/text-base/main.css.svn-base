@@ -1,0 +1,894 @@
+﻿body{
+	background:#5a5451;
+	color:#525252;
+}
+a{
+	color:#525252;
+	text-decoration:none;
+}
+.wrap{
+	width:960px;
+	margin:0 auto;
+}
+.header{
+	background:#ffffff;
+	height:90px;
+}
+.freePhoneNumber{
+	width:143px;
+	height:30px;
+	right:0;
+	top:33px;
+	background:url(../Images/freePhoneNumber.gif) no-repeat;
+}
+.topWeiboBox{
+	width:128px;
+	height:37px;
+	border-right:dotted 1px #000000;
+	right:164px;
+	top:30px;
+}
+.topNav{
+	height:70px;
+	padding-bottom:12px;
+	background:url(../Images/navBg.gif) repeat-x;
+}
+.mainNav{
+	padding-top:5px;
+}
+.mainNav li{ 
+	margin-right:44px; 
+	position:relative;
+	float:left;
+	*zoom:1; 
+} 
+.mainNav li a{ 
+	font-size:14px; 
+	height:30px; 
+	line-height:30px; 
+	color:#ffffff; 
+	padding-left:8px; 
+	display:inline-block; 
+	*width:auto; 
+	*zoom:1; 
+}
+.mainNav li a span{
+	display:block;
+	padding:0 10px 0 4px;
+}
+.mainNav li a:hover,
+.mainNav li.current a{
+	text-decoration:none;
+	background:url(../Images/navHoverBg.gif) no-repeat;
+}
+.mainNav li a:hover span,
+.mainNav li.current span{
+	background:url(../Images/navHoverBg.gif) right 0 no-repeat;
+}
+.subMainNav{
+	padding-top:6px;
+	padding-left:6px;
+	background:url(../Images/subMainNavBg.gif) 0 16px no-repeat;
+	position:absolute;
+	top:30px;
+	left:4px;
+	height:26px;
+	width:440px;
+	display:none;
+}
+.topNavEmployers,
+.topNavEmployment{
+	width:170px;
+}
+.topNavTeacher{
+	width:250px;
+}
+.subMainNav li{
+	float:left;
+	padding-right:12px;
+	margin:0;
+	background:url(../Images/subMainNavLiBg.gif) right 9px no-repeat;
+}
+.mainNav .subMainNav li a{
+	font-size:12px;
+	height:26px;
+	line-height:26px;
+	color:#525252;
+	background:none;
+}
+.subMainNav li a:hover{
+	background:none;
+	color:#000000;
+	text-decoration:underline;
+}
+.onlineConsult{
+	padding-left:28px;
+	width:58px;
+	height:18px;
+	position:absolute;
+	top:46px;
+	right:4px;
+	background:url(../Images/onlineConsult.gif) no-repeat;
+}
+.main{
+	padding:10px 0 20px 0;
+	background:#dad7c6;
+}
+.productBanner{
+	width:960px;
+	height:325px;
+	background-color:#ececec;
+}
+.bannerMark{
+	width:123px;
+	height:124px;
+	position:absolute;
+	left:-10px;
+	top:-10px;
+	background:url(../Images/bannerMark.png) no-repeat;
+	_background:url(../Images/bannerMark.gif) no-repeat;
+}
+.focusBannerPic{
+	width:960px;
+	height:325px;
+	overflow:hidden;
+	position:relative;
+}
+.focusBannerPic li{
+	left:0;
+	top:0;
+	position:absolute;
+}
+.controlNav{
+	height:24px;
+	bottom:0;
+	left:43%;
+	z-index:1;
+}
+.controlNav li{
+	float:left;
+	padding:0 6px;
+}
+.controlNav a{
+	width:13px;
+	height:13px;
+	display:block;
+	background:url(../Images/controlNav.gif) no-repeat;
+}
+.controlNav li.current a{
+	background-position:0 -20px;
+}
+.courseTypeBox{
+	height:95px;
+}
+.courseTypeTitle{
+	width:20px;
+	height:90px;
+	padding:5px 6px 0 12px;
+	float:left;
+	font-size:14px;
+	font-weight:bold;
+	color:#ef872e;
+	border-right:solid 1px #d0d0d0;
+	background:#ffffff;
+}
+.courseType{
+	height:95px;
+	background:url(../Images/courseTypeBg.gif);
+}
+.courseType ul{
+	float:left;
+	padding-top:20px;
+}
+.courseType li{
+	float:left;
+	width:180px;
+	height:60px;
+	padding:0 24px;
+}
+.courseType li a{
+	width:180px;
+	height:60px;
+	display:block;
+	background:url(../Images/courseType.gif) no-repeat;
+}
+.courseType .androidS a:hover{
+	background-position:0 -60px;
+}
+.courseType .androidL a{
+	background-position:0 -120px;
+}
+.courseType .androidL a:hover{
+	background-position:0 -180px;
+}
+.courseType .iOSS a{
+	background-position:0 -240px;
+}
+.courseType .iOSS a:hover{
+	background-position:0 -300px;
+}
+.courseType .iOSL a{
+	background-position:0 -360px;
+}
+.courseType .iOSL a:hover{
+	background-position:0 -420px;
+}
+.teacherBox{
+	width:290px;
+	height:295px;
+	background-color:#ffffff;
+}
+.projectsBox{
+	width:660px;
+	height:295px;
+	background-color:#ffffff;
+	overflow:hidden;
+}
+.teacherBoxTop{
+	height:36px;
+	padding-left:16px;
+	border-bottom:solid 1px #d0d0d0;
+}
+.teacherBoxTitle{
+	font-size:14px;
+	font-weight:bold;
+	line-height:36px;
+}
+.teacherPicBox{
+	width:156px;
+	overflow:hidden;
+}
+.teacherContent{
+	position:relative;
+}
+.teacherContent li{
+	position:absolute;
+}
+.teacherPic{
+	margin:6px 0 0 6px;
+	padding:5px 4px;
+	border:solid 1px #d0d0d0;
+	width:140px;
+}
+.teacherLink a{
+	width:56px;
+	height:21px;
+	float:left;
+	display:block;
+	margin:0 6px;
+	background:url(../Images/teacherLinkBtn.gif) no-repeat;
+}
+.teacherLink .teacherSignUp{
+	background-position:0 -30px;
+}
+.teacherInfoBox{
+	padding:10px 10px 0 10px;
+	_padding-left:6px;
+}
+.teacherName,
+.teacherPosition{
+	font-size:14px;
+	color:#2c5fd1;
+}
+.teacherBoxUl{
+	padding:16px 10px 0 0;
+}
+
+.teacherBoxUl a,
+.centerParkPiccontrol a{
+	width:12px;
+	height:12px;
+	display:block;
+	margin:0 2px;
+	background:url(../Images/teacherControlNav.gif) no-repeat;
+}
+.teacherBoxUl li{
+	float:left;
+}
+.teacherBoxUl .current a,
+.teacherBoxUl a:hover,
+.centerParkPiccontrol .current a,
+.centerParkPiccontrol a:hover{
+	background:url(../Images/teacherControlNav.gif) 0 -12px no-repeat;
+}
+.projectsBoxTabs{
+	height:26px;
+	padding-left:16px;
+	padding-top:9px;
+	border-bottom:solid 1px #d0d0d0;
+	_overflow:hidden;
+}
+.projectsBoxTabs li{
+	height:26px;
+	padding:2px 8px 0 8px;
+	float:left;
+	font-size:14px;
+	margin-right:10px;
+}
+.projectsBoxTabs li.current{
+	height:25px;
+	background-color:#ffffff;
+	position:relative;
+	font-weight:bold;
+	padding:0 8px 0 8px;
+	border-top:solid 2px #ef872e;
+	border-left:solid 1px #d0d0d0;
+	border-right:solid 1px #d0d0d0;
+}
+.projectsBoxTabs a:hover{
+	text-decoration:none;
+}
+.personnelServices{
+	height:168px;
+	width:660px;
+	padding-top:90px;
+	font-size:14px;
+	background:url(../Images/personnelServicesBg.gif) no-repeat;
+}
+.personnelServices li{
+	float:left;
+	width:200px;
+	padding:0 2px 0  18px;
+}
+.personnelServices dt{
+	color:#2c5fd1;
+	font-weight:bold;
+	padding-bottom:6px;
+}
+.personnelServices dd{
+	padding:2px 0;
+}
+.projectsApplication{
+	width:660px;
+}
+.projectsApplicationTit{
+	padding:4px 10px 2px 10px;
+	margin:0 14px;
+	color:#ef872e;
+	border-bottom:dotted 1px #aaaaaa;
+}
+.projectsApplicationList{
+	padding-top:6px;
+}
+.projectsApplicationList li{
+	width:100px;
+	height:108px;
+	padding:0 15px;
+	float:left;
+}
+.projectsApplicationPic{
+	width:64px;
+	height:64px;
+	text-align:center;
+	overflow:hidden;
+	margin:0 auto;
+}
+.projectsApplicationPic .vMiddleWrap{
+	width:64px;
+}
+.projectsApplicationPic .vMiddleAssist{
+	height:64px;
+}
+.contentWrap{
+	width:660px;
+	background-color:#ffffff;
+}
+.asideWrap{
+	width:290px;
+}
+.starTeacher{
+	padding-bottom:40px;
+}
+/* ===== Android免费公开课 ===== */
+.freeClassWrap{
+	padding:24px 49px 50px 49px;
+}
+.AndoridFreeClassTime{
+	margin-top:30px;
+	padding:38px 0 10px 90px;
+	background:url(../Images/AndoridFreeClassTime.gif) no-repeat;
+}
+.FreeSpecificTime{
+	font-weight:bold;
+	color:#ffffff;
+	padding-left:4px;
+	padding-bottom:10px;
+}
+.AndoridFreeClassApply{
+	padding:56px 0 20px 90px;
+	background:url(../Images/AndoridFreeClassApply.gif) no-repeat;
+}
+/* ===== 名师 ===== */
+.contentTitle{
+	height:28px;
+	line-height:28px;
+	padding-top:4px;
+	border-bottom:solid 1px #d0d0d0;
+}
+.starTeacherItem{
+	padding:30px 0 0 20px;
+}
+.starTeacherDetail{
+	padding:10px 12px 0 6px;
+	line-height:20px;
+}
+.starTeacherDetail ol i{
+	color:#ef872e;
+	font-weight:bold;
+	margin-right:6px;
+}
+.starTeacherDetail ol {
+	padding:4px 12px;
+}
+.starTeacherDetail li{
+	padding:4px 0;
+}
+.starTeacherDetail li p{
+	padding:2px 0;
+}
+.starTeacherDetailTit{
+	background-color:#f6f6f6;
+	padding:0 12px;
+	height:30px;
+	line-height:30px;
+	font-weight:bold;
+}
+.starTeacherName{
+	color:#ef872e;
+	font-size:14px;
+	padding:3px 0 10px 6px;
+}
+.starTeacherName strong{
+	margin-right:12px;
+}
+.starTeacherAboutBox{
+	padding:10px 6px 10px 6px;
+	height:152px;
+	background:url(../Images/courseTypeBg.gif);
+	border-bottom:solid 1px #dddddd;
+}
+.booksMark{
+	width:66px;
+	height:28px;
+	display:block;
+	background:url(../Images/booksMark.gif) no-repeat;
+}
+/* ===== 课程 ===== */
+.lessonsBox{
+	width:660px;
+	overflow:hidden;
+}
+.lessonsBoxTit{
+	font-size:24px;
+	font-weight:bold;
+	padding:10px 30px;
+}
+.lessonsBoxTab{
+	height:30px;
+	line-height:30px;
+	padding:0 30px;
+	background-color:#aaaaaa;
+}
+.lessonsBoxTab li{
+	float:left;
+}
+.lessonsBoxTab a{
+	font-size:14px;
+	display:block;
+	padding:0 10px;
+}
+.lessonsBoxTab .current a,
+.lessonsBoxTab a:hover{
+	text-decoration:none;
+	background-color:#d9d9d9;
+}
+.lessonPlanBox{
+	padding:0 49px 70px 49px;
+}
+.lessonsAboutBox{
+	padding:30px 45px 70px 45px;
+}
+.lessonsAndroidAdvantage{
+	width:527px;
+	padding:0 0 30px 40px;
+	background:url(../Images/AndroidAdvantage.gif) no-repeat;
+}
+.lessonsAndroidAdvantage li{
+	padding:6px 0;
+}
+.lessonsAndroidAdvantage .title{
+	color:#ef872e;
+	font-size:14px;
+	padding:5px 0 7px 0;
+}
+.AndroidEngineersBox{
+	width:564px;
+	height:239px;
+	padding-top:40px;
+	margin-left:2px;
+	background:url(../Images/AndroidEngineersBg.jpg) no-repeat;
+}
+.AndroidSuperiorityBox{
+	margin-top:34px;
+	padding:46px 0 30px 30px;
+	background:url(../Images/AndroidSuperiority.gif) no-repeat;
+}
+.AndroidSuperiorityBox li{
+	padding:6px 0;
+}
+.AndroidSuperiorityBox li.lastSuperiority{
+	padding:3px 0;
+}
+.lessonsAboutBoxTop{
+	padding:60px 0 26px 126px;
+	background:url(../Images/lessonsAboutBoxTop.gif) no-repeat;
+}
+.aboutIOSLessons{
+	padding-left:133px;
+	background:url(../Images/aboutIOSLessonsLeft.gif) no-repeat;
+}
+.aboutIOSLessons dt{
+	height:53px;
+	text-indent:-999em;
+	background:url(../Images/iOSHistory.gif) no-repeat;
+}
+.aboutIOSLessons .ios2008{
+	background-position:0 -100px;
+}
+.aboutIOSLessons .ios2009{
+	background-position:0 -200px;
+}
+.aboutIOSLessons .ios2010{
+	background-position:0 -300px;
+}
+.aboutIOSLessons .ios2011{
+	background-position:0 -400px;
+}
+.aboutIOSLessons dd{
+	line-height:20px;
+	padding:7px 0 9px 16px;
+}
+.aboutIOSWages{
+	margin-top:50px;
+	padding:110px 17px 0 14px;
+	height:137px;
+	background:url(../Images/aboutIOSWages.gif) no-repeat;
+}
+.aboutIOSWages b{
+	color:#216dcb;
+}
+.aboutIOSWages strong{
+	padding:0 60px 0 14px;
+	text-decoration:underline;
+	background:url(../Images/aboutIOSWagesIcon.gif) right 6px no-repeat;
+}
+.aboutIOSWages ul{
+	padding-top:90px;
+}
+.aboutIOSWages li{
+	width:174px;
+	float:left;
+	text-align:center;
+	font-weight:bold;
+}
+.lessonPlanList{
+	width:100%;
+	border-left:solid 1px #d0d0d0;
+	border-bottom:solid 1px #d0d0d0;
+}
+.lessonPlanListTop{
+	background-color:#525252;
+	color:#ffffff;
+	font-size:14px;
+	padding-left:1px;
+}
+.lessonPlanListTop strong{
+	padding:8px;
+}
+.lessonPlanListTop .lessonPlanListTit,
+.lessonPlanListTop .lessonPlanListTime{
+	border-right:solid 1px #d0d0d0;
+}
+.lessonPlanList td{
+	border-right:solid 1px #d0d0d0;
+	border-bottom:dotted 1px #d0d0d0;
+	padding:8px;
+	vertical-align:top;
+}
+.lessonPlanList th{
+	background-color:#f6f6f6;
+	border-style:solid;
+	border-color:#d0d0d0;
+	border-width:1px 1px 1px 0;
+	padding:8px;
+}
+.lessonPlanList .tdInTable{
+	padding:0;
+}
+.lessonPlanList .tdInTable table{
+	width:100%;
+}
+.lessonPlanList .tdInTable td{
+	border-right:none;
+}
+.lessonPlanList .tdInTable td.lessonPlanListTime{
+	border-right:solid 1px #d0d0d0;
+}
+.lessonPlanList .tdInTable td.last{
+	border-bottom:none;
+}
+.lessonPlanListTit{
+	width:160px;
+}
+.lessonPlanListTime{
+	width:34px;
+}
+.contactUsTop{
+	margin-top:20px;
+	padding:60px 0 0 160px;
+	background:url(../Images/contactUsxx.gif) no-repeat;
+}
+.contactUsTop p,
+.contactUsMap p{
+	padding:2px 0;
+}
+.contactUsMap{
+	margin-top:20px;
+	padding:55px 0 40px 160px;
+	background:url(../Images/contactUsMap.gif) no-repeat;
+}
+.companyProfileBox{
+	margin-top:40px;
+	padding:70px 30px 0 230px;
+	background:url(../Images/aboutUsBg.gif) no-repeat;
+}
+.brandCulture{
+	margin-top:50px;
+	padding:45px 30px 60px 230px;
+	background:url(../Images/brandCultureBg.gif) no-repeat;
+}
+.companyProfileBox p{
+	text-indent:2em;
+}
+/* ===== 右侧 ===== */
+.excellentCourseBox{
+	padding:54px 14px 20px 14px;
+	background:url(../Images/excellentCourseTop.gif) #ffffff no-repeat;
+}
+.excellentCourseBox li{
+	border-bottom:solid 1px #d0d0d0;
+}
+.excellentCourseBox li a{
+	width:260px;
+	height:57px;
+	display:block;
+	background:url(../Images/excellentCourseBox.gif) no-repeat;
+}
+.excellentCourseBox .androidS a:hover{
+	background-position:0 -60px;
+}
+.excellentCourseBox .androidL a{
+	background-position:0 -120px;
+}
+.excellentCourseBox .androidL a:hover{
+	background-position:0 -180px;
+}
+.excellentCourseBox .iOSS a{
+	background-position:0 -240px;
+}
+.excellentCourseBox .iOSS a:hover{
+	background-position:0 -300px;
+}
+.excellentCourseBox .iOSL a{
+	background-position:0 -360px;
+}
+.excellentCourseBox .iOSL a:hover{
+	background-position:0 -420px;
+}
+.excellentCourseBox .ui a{
+	background-position:0 -480px;
+}
+.excellentCourseBox .ui a:hover{
+	background-position:0 -540px;
+}
+.centerParkBox{
+	padding:10px 0;
+	background-color:#ffffff;
+}
+.centerParkBoxPic{
+	width:290px;
+	height:145px;
+	overflow:hidden;
+	position:relative;
+}
+.centerParkBoxPic li{
+	position:absolute;
+}
+.centerParkTop{
+	padding:0 0 6px 12px;
+	border-bottom:solid 1px #d0d0d0;
+}
+.centerParkPiccontrol{
+	padding-top:10px;
+	padding-right:8px;
+	height:14px;
+	float:right;
+}
+.centerParkPiccontrol li{
+	float:left;
+}
+/* ===== 招贤纳士 ===== */
+.joinUsBox{
+	padding:180px 25px 60px 25px;
+	background:url(../Images/joinUsTopBg.gif) 25px 0 no-repeat;
+	font-size:14px;
+}
+.joinUsTit{
+	color:#ef872e;
+	font-weight:bold;
+	padding:30px 8px 6px 8px;
+	background:url(../Images/dottedBorder.gif) 0 bottom repeat-x;
+}
+.joinUsBox dl{
+	padding:0 8px;
+	line-height:22px;
+}
+.joinUsBox dt{
+	padding-top:6px;
+	font-weight:bold;
+}
+/* ===== 人才网链接 ===== */
+.dottedLine{
+	background:url(../Images/talentTitleBot.gif) 0 bottom repeat-x;
+}
+.talentWrap{
+	background-color:#ffffff;
+	padding:0 30px;
+}
+.talentList{
+	padding-top:10px;
+}
+.talentListTop{
+	padding-left:45px;
+	background:url(../Images/talentTitle.gif) 0 4px no-repeat;
+}
+.talentList dt{
+	height:46px;
+	line-height:46px;
+	padding-left:15px;
+	font-weight:bold;
+	font-size:14px;
+	padding-top:10px;
+	padding-bottom:4px;
+}
+.talentList dd{
+	float:left;
+	width:390px;
+	padding:20px 40px 35px 20px;
+	position:relative;
+}
+.talentListTit{
+	color:#71361c;
+}
+.talentHref{
+	width:86px;
+	height:30px;
+	background:url(../Images/talentButton.gif) no-repeat;
+	display:block;
+	color:#ffffff;
+	font-size:14px;
+	text-align:center;
+	line-height:30px;
+}
+.talentHref:hover{
+	text-decoration:none;
+	font-weight:bold;
+}
+.talentList .RightTop{
+	right:10px;
+	top:6px;
+}
+.talentList .RightBottom{
+	right:40px;
+	bottom:20px;
+}
+.inviteIntro{
+	height:90px;
+}
+.superiorityBox,
+.talentContactBox{
+	padding:26px 15px;
+}
+.talentContactBox{
+}
+.talentContactLeft,
+.talentContactRight{
+	width:320px;
+	height:140px;
+	background-color:#f5f5f5;
+	border:solid 1px #dfdfdf;
+	padding:24px 12px;
+	border-radius:8px;
+}
+.contrastArrow{
+	width:137px;
+	height:56px;
+	background:url(../Images/contrastArrow.gif) no-repeat;
+	text-align:center;
+	line-height:56px;
+	color:#ffffff;
+	font-weight:bold;
+	margin:60px 20px 0 20px;
+}
+.talentOnline{
+	width:480px;
+	height:280px;
+	/* border-right:dotted 1px #aaaaaa; */
+}
+.talentOnlineList li{
+	float:left;
+	padding-right:20px;
+	height:24px;
+	line-height:24px;
+}
+.talentOnlineBtn{
+	width:81px;
+	height:23px;
+	margin:0 4px;
+	background:url(../Images/talentOnline.gif) no-repeat;
+	display:inline-block;
+}
+.talentLeaveBox{
+	padding:12px 0 0 50px;
+}
+.talentLeaveBox p{
+	padding:8px 0;
+}
+.talentLeaveBox p input,
+.talentLeaveBox p select{
+	background-color:#f5f5f5;
+	padding:2px;
+	border:solid 1px #dfdfdf;
+	display:inline-block;
+}
+.talentLeaveBox p label{
+	width:60px;
+	display:inline-block;
+}
+.goToTop{
+	width:36px;
+	height:20px;
+	position:fixed;
+	_position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+	cursor:pointer;
+	background:url(../Images/returntop.gif) 50% 50% no-repeat;
+}
+/* ===== 底部 ===== */
+.footer{
+	padding:36px 0 40px 0;
+}
+
+.BlogrollPic{
+	padding-bottom:10px;
+}
+.BlogrollPic a{
+	margin:0 14px;
+}
+.BlogrollText,
+.copyRight{
+	padding:4px 0;
+	color:#ffffff;
+}
+.BlogrollText a{
+	color:#ffffff;
+	margin:0 10px;
+}
+.blue{
+	color:#3479C9;
+}
+.dottedBottomBorder{
+	background:url(../Images/dottedBorder.gif) 0 bottom repeat-x;
+}
